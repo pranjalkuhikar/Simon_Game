@@ -1,5 +1,5 @@
 
-# To Do List
+# Simon Game
 
 Hi 👋, I'm Pranjal Kuhikar
 
