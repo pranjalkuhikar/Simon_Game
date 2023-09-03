@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siman Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Simon Game</h1>
+    <h2>Press any key to start the game</h2>
+    <div id="info">
+      <h1 id="h1">
+        <u> How to Play </u>
+      </h1>
+      <br />
+      <ol type="1">
+        <li>
+          The goal of the Simon game is to remember the pattern of lights and
+          get the highest score.
+        </li>
+        <li>To Start the game press any key.</li>
+        <li>
+          At the start of the game, one of the buttons lights up. The player
+          must press that light up button.
+        </li>
+        <li>
+          Then the game light up another button but you need to press 2 button
+          on the second level. ie. Pevious one and new one.
+        </li>
+        <li>
+          The player must reproduce the chain of lights using their memory, As
+          the game progresses.
+        </li>
+        <li>
+          If the player is fail then display the score by flashing red lights
+          when the player doesn't complete a sequence successfully.
+        </li>
+      </ol>
+    </div>
+    <div class="btn_container">
+      <div class="btn red" id="red" type="button">1</div>
+      <div class="btn blue" id="blue" type="button">2</div>
+      <div class="btn orange" id="orange" type="button">3</div>
+      <div class="btn purple" id="purple" type="button">4</div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
